@@ -1,0 +1,14 @@
+export interface IGameData {
+    /** 最后一次得分 */
+    lastScore: number;
+    /** 复活币 */
+    gold: number;
+    /** 最高分 */
+    maxScore: number;
+    /** 是否静音 */
+    mute: boolean;
+    /** 是否新手 */
+    isGuide: boolean;
+    /** 是否已经检查过公众号了 */
+    pubAccountChecked: boolean;
+}
